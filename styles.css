@@ -1,0 +1,116 @@
+/* ------------------------
+BANNER SECTION
+-------------------------  */
+
+.banner{
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+}
+
+.banner-section{
+    display: flex
+}
+.banner-name{
+position: relative;
+margin-top: 207px;
+width: 485px;
+height: 230px;
+margin-left: 156px;
+margin-bottom: 27px;
+ font-family: 'Poppins', sans-serif;
+font-weight: 700;
+font-size: 64px;
+line-height: 80px;
+color: white;
+}
+.live-link{
+    position: absolute;
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    top: 464px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+   
+}
+.live-link a{
+text-decoration: none;
+position: static;
+width: 88px;
+height: 24px;
+margin-left: 24px;
+margin-top: 10px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.banner-img img{
+width: 556.01px;
+height: 438px;
+margin-right: 141PX;
+margin-left: 102px;
+margin-top: 153px;
+margin-bottom: 86px;
+}
+.banner-img  img:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+
+.live-link:hover{
+border: 2px solid green;
+border-radius: 5px;
+box-shadow: 0 0 10px;
+}
+
+/* -------------------------------
+PLAYERS SECTION 
+--------------------------------- */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-left: 180px;
+    margin-right: 210px;
+    background-color: #FFFFFF;
+}
+.player{
+width :300px;
+height :474px;
+margin-top: 70px;
+padding: 15px;
+
+box-shadow: 1px 1px 5px;
+margin-bottom: -70px;
+}
+.player img{
+width: 300px;
+height: 256px;
+}
+.player-name{
+font-family:'Poppins', sans-serif;
+height: 30px;
+font-style: normal;
+font-weight: 700px;
+font-size: 28px;
+line-height: 40px;
+color: #18191F;
+margin: 6px 0px;
+align-self: stretch;
+}
+.player-detail{
+position: static;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400px;
+font-size: 16px;
+line-height: 26px;
+color: #6C6C6C;
+align-self: stretch;
+margin: 4px 0px;
+}
