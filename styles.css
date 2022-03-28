@@ -68,6 +68,7 @@ border-radius: 5px;
 box-shadow: 0 0 10px;
 }
 
+
 /* -------------------------------
 PLAYERS SECTION 
 --------------------------------- */
@@ -84,7 +85,6 @@ width :300px;
 height :474px;
 margin-top: 70px;
 padding: 15px;
-
 box-shadow: 1px 1px 5px;
 margin-bottom: -70px;
 }
@@ -114,3 +114,170 @@ color: #6C6C6C;
 align-self: stretch;
 margin: 4px 0px;
 }
+
+
+
+/*------------------ 
+HIGHLIGHTS SECTION
+---------------------  */
+
+.highlights-section{
+    display: flex;
+    margin-top: 224px;
+    margin-left: 182px;
+    width: 466px;
+    height: 241px;
+    padding-bottom: 158px;
+}
+
+.highlights-title{
+width: 466px;
+height: 120px;
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+color: #0A0826;
+margin: 8px 0px;
+}
+
+.highlights-detail{
+width: 404px;
+height: 113px;
+top: 128px;
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #6C6C6C;
+padding-bottom: 24px;
+}
+.watch-link{
+padding: 10px 24px;
+position: static;
+width: 173px;
+height: 30px;
+background: #E02C6D;
+}
+.watch-link a{
+width: 93px;
+height: 24px;
+margin-left: 24px;
+margin-top: 10px;
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+text-decoration: none;
+position: static;
+}
+
+.highlights-image img{
+    width: 567px;
+    height: 427px;
+    margin-left: 69px;
+    margin-right: 156px;
+}
+
+
+
+/* -------------------------
+FOOTER SECTION 
+--------------------------- */
+footer {
+width: 483.87px;
+height: 213px;
+margin-right: 475px;
+margin-left: 480px;
+margin-top: 158px;
+}
+footer img{
+    width: 483.87px;
+    height: 110px;
+    margin: 20px 0px; 
+}
+.social-icons{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+position: static;
+width: 170px;
+height: 32px;
+margin-left: 156px;                 
+}
+.copyright{
+position: static;
+margin-left: 123px;
+padding-bottom: 63px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 4px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #000000;
+}
+
+
+
+
+/*--------------------------
+ MEDIA QUERY 
+ -------------------------- */
+
+
+ @media (max-width:500px)  {
+     .banner{
+        width: 700px;
+        height: 695px;
+     }
+    
+    .banner-section{
+       display: block;
+       width: 360px;
+       height: 695px;
+    }
+     .players{
+         margin-top: 200px;
+         display: block;
+     }
+     .player{
+        width: 330px;
+        height: 474px;
+     }
+   .highlights-section{
+        display: block;
+        width: 329px;
+        height: 299px;
+        margin-left: 15px;
+}
+.highlights-section img{
+    width: 328px;
+    height: 248px;
+    margin-left: 16px;
+}
+footer {
+    width: 150px;
+    height: 63px;
+    margin-left: 18px;
+}
+  .copyright{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+align-items: center;
+text-align: right;
+  }   
+ }
+
+ @media screen and (min-width:501px) and (max-width:780px) {
+     .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+     }
+ }
